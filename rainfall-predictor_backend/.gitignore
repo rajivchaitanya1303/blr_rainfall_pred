@@ -26,7 +26,7 @@ dist/
 Thumbs.db
 
 # Data and models
-data/
+# data/
 models/
 
 # VSCode or other IDE files
