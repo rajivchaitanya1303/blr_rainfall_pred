@@ -1,9 +1,7 @@
-// src/components/PredictionForm.jsx
-
 import React, { useState } from 'react';
 import PredictionResult from './PredictionResult';
 import { getRainfallPrediction } from '../services/api';
-import './PredictionForm.css'; // Custom CSS for styling
+import './PredictionForm.css';
 
 const PredictionForm = () => {
   const [year, setYear] = useState('');

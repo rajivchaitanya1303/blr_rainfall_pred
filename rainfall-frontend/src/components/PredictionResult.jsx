@@ -1,7 +1,5 @@
-// src/components/PredictionResult.jsx
-
 import React from 'react';
-import './PredictionResult.css'; // Make sure this includes the upgraded CSS
+import './PredictionResult.css';
 
 const PredictionResult = ({ predictions }) => {
   if (!predictions) {
