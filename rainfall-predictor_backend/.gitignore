@@ -27,7 +27,7 @@ Thumbs.db
 
 # Data and models
 # data/
-models/
+# models/
 
 # VSCode or other IDE files
 .vscode/
