@@ -1,6 +1,6 @@
 export const getRainfallPrediction = async (data) => {
   try {
-    const response = await fetch("https://blr-rainfall-pred.onrender.com/predict", {
+    const response = await fetch("https://blr-rainfall-pred.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
