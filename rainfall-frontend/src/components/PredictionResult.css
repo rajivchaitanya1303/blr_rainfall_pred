@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.result-container {
+  margin-top: 40px;
+  padding: 30px;
+  background: linear-gradient(to right, #f0f4ff, #f7f9fc);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.result-container h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.rainfall-total {
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding: 24px 32px;
+  border-radius: 12px;
+  display: inline-block;
+  min-width: 220px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.low-rainfall {
+  background: linear-gradient(135deg, #ffe9ec, #ffd6e0);
+  color: #2e7d32;
+}
+
+.medium-rainfall {
+  background: linear-gradient(135deg, #fff7cc, #ffe680);
+  color: #b38f00;
+}
+
+.high-rainfall {
+  background: linear-gradient(135deg, #d0f5d8, #a8e6a3);
+  color: #c0392b;
+}
+
+.rainfall-total:hover {
+  transform: scale(1.07);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.result-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .rainfall-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px 24px;
+    width: 100%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .rainfall-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .month-name {
+    font-weight: 600;
+    color: #333;
+    flex-shrink: 0;
+    width: 60px;
+  }
+  
+  .rainfall-value {
+    font-weight: 500;
+    color: #444;
+  }
